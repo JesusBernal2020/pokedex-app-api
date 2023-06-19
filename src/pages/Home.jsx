@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
                 <div className='text-center'>
                     <h3 className='text-primary text-2xl font-extrabold xs:text-3xl sm:text-4xl'>Hello Trainer!</h3>
-                    <p className='text-base xs:text-xl'>For star, give your name:</p>
+                    <p className='text-base xs:text-xl'>For Start, give your name:</p>
                 </div>
                 
                 <div className='px-2'>
