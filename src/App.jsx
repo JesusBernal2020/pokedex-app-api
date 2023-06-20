@@ -17,11 +17,8 @@ function App() {
   }
   
   return (
-    <section className={
-      styleBackGround + " " + 'font-["Inter"] min-h-screen text-black'}
-      >
-        <Ligthmode switchStyle={handleAction} value={value}
-        ></Ligthmode>
+    <section className={styleBackGround + " " + 'font-["Inter"] relative min-h-screen text-black'}>
+        <Ligthmode switchStyle={handleAction} value={value}></Ligthmode>
         
       <Routes>
         <Route path='/' element={<Home />} />
